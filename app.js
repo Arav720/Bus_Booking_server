@@ -38,7 +38,7 @@ const start = async () => {
       if (err) {
         console.log(err);
       } else {
-        console.log(` Server started on http://localhost:${PORT}/admin`);
+       console.log(`🚀 Server started on port ${PORT}`);
       }
     });
   } catch (error) {
